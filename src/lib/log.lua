@@ -10,7 +10,7 @@
 local log = { _version = "0.1.0" }
 
 log.usecolor = true
-log.outfile = "/log.txt"
+log.outfile = ""
 log.level = "trace"
 
 

@@ -1,10 +1,12 @@
 --
 -- i18n.lua 2023.08.12
 -- 
--- by Seedking
+-- Copyright (c) 2023 Seedking
 -- 
+-- MIT License
+--
 
-i18n = { _version = "0.1.0"}
+local i18n = { _version = "0.1.0"}
 
 local dir_path = ""
 local dictionary = {}
