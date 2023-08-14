@@ -1,0 +1,357 @@
+#[组件]
+#组件类型 燃料棒/冷却单元/散热片/中子反射板
+#是否可再生 会被消耗/会枯竭/使用后可回收/无限耐久
+#组件名
+#枯竭燃料棒名 名字/non
+#[Component]
+#Component type fuel/coolant/vent/reflector
+#recyclable consumable/depletable/recyclable/unbreakable
+#Component name
+#Depleted fuel name name/non
+
+#燃料棒
+
+#浓缩铀
+[rodCompressedUranium]
+type = fuel
+recyclable = depletable
+name = GoodGenerator:rodCompressedUranium
+depletedName = GoodGenerator:rodCompressedUraniumDepleted
+
+[rodCompressedUranium2]
+type = fuel
+recyclable = depletable
+name = GoodGenerator:rodCompressedUranium2
+depletedName = GoodGenerator:rodCompressedUraniumDepleted2
+
+[rodCompressedUranium4]
+type = fuel
+recyclable = depletable
+name = GoodGenerator:rodCompressedUranium4
+depletedName = GoodGenerator:rodCompressedUraniumDepleted4
+
+#浓缩钚
+[rodCompressedPlutonium]
+type = fuel
+recyclable = depletable
+name = GoodGenerator:rodCompressedPlutonium
+depletedName = GoodGenerator:rodCompressedPlutoniumDepleted
+
+[rodCompressedPlutonium2]
+type = fuel
+recyclable = depletable
+name = GoodGenerator:rodCompressedPlutonium2
+depletedName = GoodGenerator:rodCompressedPlutoniumDepleted2
+
+[rodCompressedPlutonium4]
+type = fuel
+recyclable = depletable
+name = GoodGenerator:rodCompressedPlutonium4
+depletedName = GoodGenerator:rodCompressedPlutoniumDepleted4
+
+#激发铀
+[rodLiquidUranium]
+type = fuel
+recyclable = depletable
+name = GoodGenerator:rodLiquidUranium
+depletedName = GoodGenerator:rodLiquidUraniumDepleted
+
+[rodLiquidUranium2]
+type = fuel
+recyclable = depletable
+name = GoodGenerator:rodLiquidUranium2
+depletedName = GoodGenerator:rodLiquidUraniumDepleted2
+
+[rodLiquidUranium4]
+type = fuel
+recyclable = depletable
+name = GoodGenerator:rodLiquidUranium4
+depletedName = GoodGenerator:rodLiquidUraniumDepleted4
+
+#激发钚
+[rodLiquidPlutonium]
+type = fuel
+recyclable = depletable
+name = GoodGenerator:rodLiquidPlutonium
+depletedName = GoodGenerator:rodLiquidPlutonium
+
+[rodLiquidPlutonium2]
+type = fuel
+recyclable = depletable
+name = GoodGenerator:rodLiquidPlutonium2
+depletedName = GoodGenerator:rodLiquidPlutoniumDepleted2
+
+[rodLiquidPlutonium4]
+type = fuel
+recyclable = depletable
+name = GoodGenerator:rodLiquidPlutonium4
+depletedName = GoodGenerator:rodLiquidPlutoniumDepleted4
+
+#锂
+[LithiumCell]
+type = fuel
+recyclable = depletable
+name = IC2:reactorLithiumCell
+depletedName = IC2:itemTritiumCell
+
+#mox
+[reactorMOXSimple]
+type = fuel
+recyclable = depletable
+name = gregtech:gt.reactorMOXSimple
+depletedName = IC2:reactorMOXSimpledepleted
+
+[reactorMOXDual]
+type = fuel
+recyclable = depletable
+name = gregtech:gt.reactorMOXDual
+depletedName = IC2:reactorMOXDualdepleted
+
+[reactorMOXQuad]
+type = fuel
+recyclable = depletable
+name = gregtech:gt.reactorMOXQuad
+depletedName = IC2:reactorMOXQuaddepleted
+
+#铀
+[reactorUraniumSimple]
+type = fuel
+recyclable = depletable
+name = gregtech:gt.reactorUraniumSimple
+depletedName = IC2:reactorUraniumSimpledepleted
+
+[reactorUraniumDual]
+type = fuel
+recyclable = depletable
+name = gregtech:gt.reactorUraniumDual
+depletedName = IC2:reactorUraniumDualdepleted
+
+[reactorUraniumQuad]
+type = fuel
+recyclable = depletable
+name = gregtech:gt.reactorUraniumQuad
+depletedName = gregtech:gt.reactorUraniumQuad
+
+#泰伯利亚
+[Tiberiumcell]
+type = fuel
+recyclable = depletable
+name = bartworks:gt.Tiberiumcell
+depletedName = bartworks:gt.TiberiumcellDep
+
+[Double_Tiberiumcell]
+type = fuel
+recyclable = depletable
+name = bartworks:gt.Double_Tiberiumcell
+depletedName = bartworks:gt.Double_TiberiumcellDep
+
+[Quad_Tiberiumcell]
+type = fuel
+recyclable = depletable
+name = bartworks:gt.Quad_Tiberiumcell
+depletedName = bartworks:gt.Quad_TiberiumcellDep
+
+#萤石
+[glowstoneCell]
+type = fuel
+recyclable = depletable
+name = gregtech:gt.glowstoneCell
+depletedName = gregtech:gt.sunnariumCell
+
+#钍
+[Thoriumcell]
+type = fuel
+recyclable = depletable
+name = gregtech:gt.Thoriumcell
+depletedName = gregtech:gt.ThoriumcellDep
+
+[Double_Thoriumcell]
+type = fuel
+recyclable = depletable
+name = gregtech:gt.Double_Thoriumcell
+depletedName = gregtech:gt.Double_ThoriumcellDep
+
+[Quad_Thoriumcell]
+type = fuel
+recyclable = depletable
+name = gregtech:gt.Quad_Thoriumcell
+depletedName = gregtech:gt.Quad_ThoriumcellDep
+
+#硅岩
+[Naquadahcell]
+type = fuel
+recyclable = depletable
+name = gregtech:gt.Naquadahcell
+depletedName = gregtech:gt.NaquadahcellDep
+
+[Double_Naquadahcell]
+type = fuel
+recyclable = depletable
+name = gregtech:gt.Double_Naquadahcell
+depletedName = gregtech:gt.Double_NaquadahcellDep
+
+[Quad_Naquadahcell]
+type = fuel
+recyclable = depletable
+name = gregtech:gt.Quad_Naquadahcell
+depletedName = gregtech:gt.Quad_NaquadahcellDep
+
+#超能硅岩nqx
+[MNqCell]
+type = fuel
+recyclable = depletable
+name = gregtech:gt.MNqCell
+depletedName = gregtech:gt.MNqCellDep
+
+[Double_MNqCell]
+type = fuel
+recyclable = depletable
+name = gregtech:gt.Double_MNqCell
+depletedName = gregtech:gt.Double_MNqCellDep
+
+[Quad_MNqCell]
+type = fuel
+recyclable = depletable
+name = gregtech:gt.Quad_MNqCell
+depletedName = gregtech:gt.Quad_MNqCellDep
+
+#冷却单元
+
+#冷却液单元
+[reactorCoolantSimple]
+type = coolant
+recyclable = recyclable
+name = IC2:reactorCoolantSimple
+depletedName = non
+
+[reactorCoolantTriple]
+type = coolant
+recyclable = recyclable
+name = 
+depletedName = non
+
+[reactorCoolantSix]
+type = coolant
+recyclable = recyclable
+name = IC2:reactorCoolantSix
+depletedName = non
+
+#氦单元
+[60k_Helium_Coolantcell]
+type = coolant
+recyclable = recyclable
+name = gregtech:gt.60k_Helium_Coolantcell
+depletedName = non
+
+[180k_Helium_Coolantcell]
+type = coolant
+recyclable = recyclable
+name = gregtech:gt.180k_Helium_Coolantcell
+depletedName = non
+
+[360k_Helium_Coolantcell]
+type = coolant
+recyclable = recyclable
+name = gregtech:gt.360k_Helium_Coolantcell
+depletedName = non
+
+#钠钾单元
+[60k_NaK_Coolantcell]
+type = coolant
+recyclable = recyclable
+name = gregtech:gt.60k_NaK_Coolantcell
+depletedName = non
+
+[180k_NaK_Coolantcell]
+type = coolant
+recyclable = recyclable
+name = gregtech:gt.180k_NaK_Coolantcell
+depletedName = non
+
+[360k_NaK_Coolantcell]
+type = coolant
+recyclable = recyclable
+name = gregtech:gt.360k_NaK_Coolantcell
+depletedName = non
+
+#空间单元
+[180k_Space_Coolantcell]
+type = coolant
+recyclable = recyclable
+name = gregtech:gt.180k_Space_Coolantcell
+depletedName = non
+
+[360k_Space_Coolantcell]
+type = coolant
+recyclable = recyclable
+name = gregtech:gt.360k_Space_Coolantcell
+depletedName = non
+
+[540k_Space_Coolantcell]
+type = coolant
+recyclable = recyclable
+name = gregtech:gt.540k_Space_Coolantcell
+depletedName = non
+
+[1080k_Space_Coolantcell]
+type = coolant
+recyclable = recyclable
+name = gregtech:gt.1080k_Space_Coolantcell
+depletedName = non
+
+#红石青金石单元
+[reactorCondensator]
+type = coolant
+recyclable = recyclable
+name = IC2:reactorCondensator
+depletedName = non
+
+[reactorCondensatorLap]
+type = coolant
+recyclable = recyclable
+name = IC2:reactorCondensatorLap
+depletedName = non
+
+#1G中子热容
+[neutroniumHeatCapacitor]
+type = coolant
+recyclable = recyclable
+name = gregtech:gt.neutroniumHeatCapacitor
+depletedName = non
+
+#散热片
+
+#散热片
+[]
+type = vent
+recyclable = consumable
+name = 
+depletable = non
+
+#反应堆散热片
+[]
+type = vent
+recyclable = consumable
+name = 
+depletable = non
+
+#超频散热片
+[]
+type = vent
+recyclable = consumable
+name = 
+depletable = non
+
+#元件散热片
+[]
+type = vent
+recyclable = consumable
+name = 
+depletable = non
+
+#高级散热片
+[]
+type = vent
+recyclable = consumable
+name = 
+depletable = non
