@@ -322,36 +322,59 @@ depletedName = non
 #散热片
 
 #散热片
-[]
+[reactorVent]
 type = vent
 recyclable = consumable
-name = <IC2:reactorVent:1>.withTag({})
-depletable = non
+name = IC2:reactorVent
+depletedName = non
 
 #反应堆散热片
-[]
+[reactorVentCore]
 type = vent
 recyclable = consumable
-name = <IC2:reactorVentCore:1>.withTag({})
-depletable = non
+name = IC2:reactorVentCore
+depletedName = non
 
 #超频散热片
-[]
+[reactorVentGold]
 type = vent
 recyclable = consumable
-name = <IC2:reactorVentGold:1>.withTag({})
-depletable = non
+name = IC2:reactorVentGold
+depletedName = non
 
 #元件散热片
-[]
+[reactorVentSpread]
 type = vent
 recyclable = consumable
-name = <IC2:reactorVentSpread>
-depletable = non
+name = IC2:reactorVentSpread
+depletedName = non
 
 #高级散热片
-[]
+[reactorVentDiamond]
 type = vent
 recyclable = consumable
-name = <IC2:reactorVentDiamond:1>.withTag({})
-depletable = non
+name = IC2:reactorVentDiamond
+depletedName = non
+
+#反射板
+
+#中子反射板
+[reactorReflector]
+type = reflector
+recyclable = consumable
+name = IC2:reactorReflector
+depletedName = non
+
+#加厚中子反射板
+[reactorReflectorThick]
+type = reflector
+recyclable = consumable
+name = IC2:reactorReflectorThick
+depletedName = non
+
+#铱中子反射板
+[neutronreflector]
+type = reflector
+recyclable = unbreakable
+name = gregtech:gt.neutronreflector
+depletedName = non
