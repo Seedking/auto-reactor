@@ -325,33 +325,33 @@ depletedName = non
 []
 type = vent
 recyclable = consumable
-name = 
+name = <IC2:reactorVent:1>.withTag({})
 depletable = non
 
 #反应堆散热片
 []
 type = vent
 recyclable = consumable
-name = 
+name = <IC2:reactorVentCore:1>.withTag({})
 depletable = non
 
 #超频散热片
 []
 type = vent
 recyclable = consumable
-name = 
+name = <IC2:reactorVentGold:1>.withTag({})
 depletable = non
 
 #元件散热片
 []
 type = vent
 recyclable = consumable
-name = 
+name = <IC2:reactorVentSpread>
 depletable = non
 
 #高级散热片
 []
 type = vent
 recyclable = consumable
-name = 
+name = <IC2:reactorVentDiamond:1>.withTag({})
 depletable = non
